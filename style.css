@@ -9,9 +9,9 @@ h2 {
 }
   
 body {
-    background: linear-gradient(to right, slateblue, lightblue);
+    background: linear-gradient(to right, #171810, #03FA6E);
     font-family: 'Trebuchet MS';
-    color: white;
+    color:  #FFFFFF;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
 }
   
 a {
-    background-color: white;
+    background-color: #FFFFFF;
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
@@ -28,15 +28,15 @@ a {
     text-align: center;
     margin: 10px;
     width: 40vw;
-    color: slateblue;
+    color: #171810;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s ease;
 }
   
 a:hover {
-    color: lightblue;
-    background-color: darkgray;
+    color: #03FA6E;
+    background-color: #171810;
     transform: scale(1.05);
 }
   
